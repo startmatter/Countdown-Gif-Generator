@@ -1,9 +1,9 @@
 <?php
 
-//namespace mattbarber\Example;
+//namespace startmatter\Example;
 include '../vendor/autoload.php';
-use mattbarber\CountdownClock\Clock;
-use mattbarber\CountdownClock\ClockInterface;
+use startmatter\CountdownClock\Clock;
+use startmatter\CountdownClock\ClockInterface;
 
 /**
  * Example class to inject into the countdown clock
