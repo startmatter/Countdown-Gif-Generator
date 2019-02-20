@@ -1,6 +1,6 @@
 <?php
 
-namespace mattbarber\CountdownClock;
+namespace startmatter\CountdownClock;
 
 
 /**
