@@ -1,5 +1,5 @@
 {
-    "name": "mattbarber/countdown-gif-generator",
+    "name": "satartmatter/countdown-gif-generator",
     "description": "A clock gif generator",
     "version": "1.0.0",
     "type": "library",
@@ -7,25 +7,16 @@
         "phpunit/phpunit": "^5.6"
     },
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Matt Barber",
-            "email": "mfmbarber@gmail.com"
-        },
-        {
-            "name": "Tom Power",
-            "homepage": "https://github.com/tom-power"
-        }
-    ],
+    "authors": [],
     "autoload": {
         "psr-4": {
-            "mattbarber\\CountdownClock\\": "src/",
-            "mattbarber\\Example\\": "example/"
+            "satartmatter\\CountdownClock\\": "src/",
+            "satartmatter\\Example\\": "example/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "mattbarber\\CountdownClock\\Tests\\": "tests/"
+            "satartmatter\\CountdownClock\\Tests\\": "tests/"
         }
     }
 }
