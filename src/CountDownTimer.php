@@ -9,12 +9,11 @@ class CountDownTimer implements ClockInterface {
     protected $backgroundImageFile;
     protected $fontFile;  
 
-    public function __construct($dateTime, $timezone = 'America/Los_Angeles', $backgroundImageFile = './countDownWgiteBG.png', $fontFile = './`Lato-Bold.ttf') {
-
-        $this->dateTime = DateTime::createFromFormat('Y-m-d H:i:s', $dateTime);
+    public function __construct($dateTime, $timezone = 'America/Los_Angeles', $backgroundImageFile = 'countDownWgiteBG.png', $fontFile = 'Lato-Bold.ttf') {
+        $this->dateTime = \DateTime::createFromFormat('Y-m-d H:i:s', $dateTime);
         $this->timezone = $timezone;
-        $this->backgroundImageFile = $backgroundImageFile;
-        $this->fontFile = $fontFile; 
+        $this->backgroundImageFile = __DIR__ . DIRECTORY_SEPARATOR . $backgroundImageFile;
+        $this->fontFile = __DIR__ . DIRECTORY_SEPARATOR . $fontFile; 
     }
     /**
      * @return string clock name
