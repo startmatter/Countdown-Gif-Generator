@@ -1,5 +1,5 @@
 {
-    "name": "satartmatter/countdown-gif-generator",
+    "name": "startmatter/countdown-gif-generator",
     "description": "A clock gif generator",
     "version": "1.0.0",
     "type": "library",
@@ -10,13 +10,13 @@
     "authors": [],
     "autoload": {
         "psr-4": {
-            "satartmatter\\CountdownClock\\": "src/",
-            "satartmatter\\Example\\": "example/"
+            "startmatter\\CountdownClock\\": "src/",
+            "startmatter\\Example\\": "example/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "satartmatter\\CountdownClock\\Tests\\": "tests/"
+            "startmatter\\CountdownClock\\Tests\\": "tests/"
         }
     }
 }
