@@ -1,6 +1,6 @@
 <?php
 
-namespace startmatter\CountdownClock;
+namespace travisketchum\CountdownClock;
 
 class CountDownTimerHR implements ClockInterface {
 

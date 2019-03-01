@@ -1,5 +1,5 @@
 {
-    "name": "startmatter/countdown-gif-generator",
+    "name": "travisketchum/countdown-gif-generator",
     "description": "A clock gif generator",
     "version": "1.0.0",
     "type": "library",
@@ -10,13 +10,13 @@
     "authors": [],
     "autoload": {
         "psr-4": {
-            "startmatter\\CountdownClock\\": "src/",
-            "startmatter\\Example\\": "example/"
+            "travisketchum\\CountdownClock\\": "src/",
+            "travisketchum\\Example\\": "example/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "startmatter\\CountdownClock\\Tests\\": "tests/"
+            "travisketchum\\CountdownClock\\Tests\\": "tests/"
         }
     }
 }
